@@ -1,0 +1,15 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Database (each person creates it with seed.py)
+*.db
+
+# Secrets
+.env
+
+# Editor and system
+.vscode/
+.DS_Store
