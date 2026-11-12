@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - ENISo Auto Crew</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/theme.js"></script>
+</head>
+<body>
+
+    <!-- Dynamic Header -->
+    <div id="site-header"></div>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section class="hero container section" style="text-align: center; padding: 4rem 1rem;">
+            <h1 class="page-title">ENISo Auto Crew</h1>
+            <p style="color: var(--muted); font-size: 1.2rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                L'ingénierie mécanique et l'innovation automobile à votre portée. Concevons l'avenir ensemble.
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="connexion.html" class="btn">Rejoindre le club</a>
+                <a href="projets.html" class="btn-outline">Voir nos projets</a>
+            </div>
+        </section>
+
+        <!-- 2. Qui sommes-nous -->
+        <section class="section container" style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 300px;">
+                <h2 style="margin-bottom: 1rem;">Qui sommes-nous ?</h2>
+                <p style="color: var(--muted); line-height: 1.6;">
+                    Nous sommes un groupe d'étudiants passionnés par la mécanique et l'automobile au sein de l'École Nationale d'Ingénieurs de Sousse. Notre but est d'appliquer nos connaissances théoriques à travers des conceptions réelles, des fabrications en atelier et des compétitions d'innovation.
+                </p>
+            </div>
+            <!-- Colored block placeholder for an image -->
+            <div style="flex: 1; min-width: 300px; height: 250px; background: var(--border); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                <span style="color: var(--muted);">[Image de l'équipe ENISo Auto Crew]</span>
+            </div>
+        </section>
+
+        <!-- 3. Strip of 4 numbers -->
+        <section style="background: var(--card); padding: 3rem 1rem; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+            <div class="container" style="display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; gap: 2rem;">
+                <div><h3 style="font-size: 2.5rem; color: var(--accent);">150+</h3><p>Membres</p></div>
+                <div><h3 style="font-size: 2.5rem; color: var(--accent);">12</h3><p>Projets</p></div>
+                <div><h3 style="font-size: 2.5rem; color: var(--accent);">25</h3><p>Formations</p></div>
+                <div><h3 style="font-size: 2.5rem; color: var(--accent);">8</h3><p>Visites</p></div>
+            </div>
+        </section>
+
+        <!-- 4. Dernières actualités (Linking to Hamza's future page) -->
+        <section class="section container">
+            <h2 style="margin-bottom: 1.5rem; text-align: center;">Dernières actualités</h2>
+            <div class="cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                <a href="actualites.html" class="card" style="text-decoration: none; color: inherit;">
+                    <h3>Lancement du prototype</h3>
+                    <p style="color: var(--muted); margin-top: 0.5rem;">Découvrez notre nouveau véhicule tout-terrain en préparation.</p>
+                </a>
+                <a href="actualites.html" class="card" style="text-decoration: none; color: inherit;">
+                    <h3>Workshop SolidWorks</h3>
+                    <p style="color: var(--muted); margin-top: 0.5rem;">Retour sur la formation CAO dédiée aux nouveaux membres.</p>
+                </a>
+                <a href="actualites.html" class="card" style="text-decoration: none; color: inherit;">
+                    <h3>Visite Industrielle</h3>
+                    <p style="color: var(--muted); margin-top: 0.5rem;">Une journée immersive au cœur de la production automobile.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 5. Pourquoi nous rejoindre + Final Call to Action -->
+        <section class="section container">
+            <h2 style="margin-bottom: 1.5rem; text-align: center;">Pourquoi nous rejoindre ?</h2>
+            <div class="cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+                <div class="card" style="text-align: center;">
+                    <h3>🛠️ Pratique</h3>
+                    <p style="color: var(--muted); margin-top: 0.5rem;">Appliquez la théorie sur de vrais systèmes mécaniques et embarqués.</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <h3>🤝 Réseau</h3>
+                    <p style="color: var(--muted); margin-top: 0.5rem;">Échangez avec des experts et professionnels de l'industrie.</p>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <h3>💡 Innovation</h3>
+                    <p style="color: var(--muted); margin-top: 0.5rem;">Participez au développement des technologies de demain.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin: 3rem 0;">
+    <h3>Nos Chiffres Clés</h3>
+    <p style="font-size: 2rem; font-weight: bold; color: var(--accent);">
+        <span data-counter="150">0</span>+
+    </p>
+    <p style="color: var(--muted);">Membres actifs engagés</p>
+</div>
+<div class="slider-container" style="position: relative; max-width: 500px; margin: 2rem auto; overflow: hidden; border-radius: 8px; border: 1px solid var(--border); background: var(--card);">
+    <!-- Slide 1 -->
+    <div class="slide" style="display: block; padding: 3rem; text-align: center;">
+        <h4>Projet Automobile 1</h4>
+        <p style="color: var(--muted);">Conception et fabrication mécanique avancée</p>
+    </div>
+    <!-- Slide 2 -->
+    <div class="slide" style="display: none; padding: 3rem; text-align: center;">
+        <h4>Projet Tout-Terrain 2</h4>
+        <p style="color: var(--muted);">Robotique et intégration de systèmes embarqués</p>
+    </div>
+    
+    <!-- Slider Navigation Buttons -->
+    <button class="slider-prev" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); cursor: pointer; background: var(--accent); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px;">‹</button>
+    <button class="slider-next" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer; background: var(--accent); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px;">›</button>
+</div>
+            
+            <!-- Final Call-to-Action Banner -->
+            <div style="background: var(--accent); color: white; padding: 3rem 1rem; border-radius: 8px; text-align: center;">
+                <h2 style="margin-bottom: 1rem; color: white;">Prêt à démarrer l'aventure ?</h2>
+                <a href="connexion.html" class="btn" style="background: white; color: var(--accent); border: none;">S'inscrire maintenant</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="site-footer"></div>
+
+    <!-- Layout Scripts -->
+    <script src="static/js/translations/layout.js"></script>
+    <script src="static/js/layout.js"></script>
+    <script src="static/js/animations.js"></script>
+</body>
+</html>

@@ -104,7 +104,6 @@ body {
 .form-group {
   margin-bottom: 1rem;
 }
-
 /* Ensure images never overflow their containers on smaller screens */
 img {
   max-width: 100%;
@@ -116,7 +115,8 @@ img {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-}/* =========================================
+}
+/* =========================================
    Navbar & Mobile Menu Styles
 ========================================= */
 .site-header {
@@ -211,13 +211,6 @@ img {
   #menu-btn {
     display: block;
   }
-  .dropdown-menu {
-    position: static;
-    box-shadow: none;
-    border: none;
-    display: flex;
-    padding-left: 1rem;
-  }
   
   /* 2. Hide the links by default on phones */
   #main-nav {
@@ -236,5 +229,12 @@ img {
   /* 3. Show the links when JS adds the "open" class */
   #main-nav.open {
     display: flex; 
+  }
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+    display: flex;
+    padding-left: 1rem;
   }
 }
