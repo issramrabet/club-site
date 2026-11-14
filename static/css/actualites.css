@@ -1,0 +1,39 @@
+/* Barre de filtres (Tous / Événement / Compétition...) */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* .btn est utilisé sur des <button> : on retire le style par défaut du navigateur */
+.filters .btn {
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Article « à la une » : pleine largeur et plus grand */
+.featured {
+  grid-column: 1 / -1;
+  padding: 1.5rem;
+}
+
+.featured h3 {
+  font-size: 1.5rem;
+}
+
+/* Contenu des cartes */
+.card h3 {
+  margin: 0.6rem 0 0.3rem;
+}
+
+.card small {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin: 0;
+}

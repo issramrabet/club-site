@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENISO Auto Crew Club - Les visites</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/visites.css') }}">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="container">
+    <h1 class="page-title" data-i18n="visits.title">Les visites</h1>
+    <div class="filters">
+      <button class="btn" data-filter="upcoming" data-i18n="visits.tab.upcoming">À venir</button>
+      <button class="btn btn-outline" data-filter="past" data-i18n="visits.tab.past">Passées</button>
+    </div>
+
+    <div id="list" class="cards"></div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <!-- ORDRE IMPORTANT. Decommenter les lignes quand les fichiers existent sur main -->
+  <script src="{{ url_for('static', filename='js/layout.js') }}"></script>
+  <!-- <script src="{{ url_for('static', filename='js/theme.js') }}"></script> -->
+  <script src="{{ url_for('static', filename='js/translations/layout.js') }}"></script>
+  <!-- <script src="{{ url_for('static', filename='js/translations/visites.js') }}"></script> -->
+  <!-- <script src="{{ url_for('static', filename='js/lang.js') }}"></script> -->
+  <script src="{{ url_for('static', filename='js/content-helpers.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/visites.js') }}"></script>
+</body>
+</html>

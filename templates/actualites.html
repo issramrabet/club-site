@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENISO Auto Crew Club - Actualités</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/actualites.css') }}">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="container">
+    <h1 class="page-title" data-i18n="news.title">Actualités</h1>
+
+    <div class="filters">
+      <button class="btn" data-filter="all" data-i18n="news.filter.all">Tous</button>
+      <button class="btn btn-outline" data-filter="event" data-i18n="news.cat.event">Événement</button>
+      <button class="btn btn-outline" data-filter="competition" data-i18n="news.cat.competition">Compétition</button>
+      <button class="btn btn-outline" data-filter="workshop" data-i18n="news.cat.workshop">Atelier</button>
+      <button class="btn btn-outline" data-filter="club" data-i18n="news.cat.club">Club</button>
+    </div>
+
+    <div id="news-list" class="cards"></div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <!-- ORDRE IMPORTANT, ne pas changer -->
+  <script src="{{ url_for('static', filename='js/layout.js') }}"></script>
+  <!-- <script src="{{ url_for('static', filename='js/theme.js') }}"></script> -->
+  <script src="{{ url_for('static', filename='js/translations/layout.js') }}"></script>
+  <!-- <script src="{{ url_for('static', filename='js/translations/actualites.js') }}"></script> -->
+  <!-- <script src="{{ url_for('static', filename='js/lang.js') }}"></script> -->
+  <script src="{{ url_for('static', filename='js/actualites.js') }}"></script>
+</body>
+</html>
